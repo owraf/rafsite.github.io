@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Encode+Sans+SC&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:700');
+
 :root {
   --main-color: #00edff;
   --bg:  #1c1c1c; 
@@ -77,7 +79,7 @@ header h1 {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-weight: bold;
   text-align: center;
-  letter-spacing: 0.15em;
+  letter-spacing: 0.1em;
   color: var(--text-color);
   text-shadow: 0px 2px 0px #00edff;
 }
@@ -103,12 +105,14 @@ footer{
 
 header p {
   margin-top: 0px;
+  margin-bottom: 3px;
   font-size: 18px;
   font-weight: bold;
   text-align: center;
-  letter-spacing: 0.15em;
+  letter-spacing: 0.15em; 
   color: #00edff;
 }
+
 
 svg {
   width: 20px;
